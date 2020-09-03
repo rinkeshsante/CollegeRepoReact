@@ -9,6 +9,7 @@ class Department(SafeDeleteModel):
         get_user_model(),
         null=True,
         on_delete=models.SET_NULL,
+        blank=True,
     )
 
     def __str__(self):

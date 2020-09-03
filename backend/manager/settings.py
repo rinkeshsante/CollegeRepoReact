@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # third party
     'safedelete',
+    'rest_framework',
 
     # local
     'Repo.apps.RepoConfig',
