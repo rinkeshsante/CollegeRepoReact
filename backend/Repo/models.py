@@ -140,6 +140,7 @@ class Software(SafeDeleteModel):
         'Perchase',
         null=True,
         on_delete=models.SET_NULL,
+        blank=True,
     )
 
     def __str__(self):
